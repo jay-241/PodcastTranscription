@@ -1,0 +1,10 @@
+Resources:
+  MyFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs20.x
+      CodeUri: MyFunction
+      Timeout: 10
+    Metadata:
+      SamResourceId: MyFunction

@@ -1,0 +1,4 @@
+{
+    "body": "{\"action\": \"register\", \"email\": \"test@example.com\", \"name\": \"Test User\", \"password\": \"password123\"}"
+  }
+  

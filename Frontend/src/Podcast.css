@@ -1,0 +1,61 @@
+/* Podcast.css */
+
+/* Style for the main container */
+.podcast-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the heading */
+  .podcast-container h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style for the fetch button */
+  .fetch-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  /* Button hover effect */
+  .fetch-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the list of transcriptions */
+  .transcription-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transcription-list li {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .transcription-list h2 {
+    color: #4CAF50;
+  }
+  
+  .transcription-list p {
+    color: #555;
+  }
+  
+  /* Style for loading and no data messages */
+  .message {
+    text-align: center;
+    color: #888;
+  }
+  

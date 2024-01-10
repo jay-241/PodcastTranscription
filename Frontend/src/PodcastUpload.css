@@ -1,0 +1,51 @@
+/* PodcastUpload.css */
+.upload-container {
+    padding-top: 70px; /* Adjusting top padding to account for navbar height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px; /* Or desired max width */
+  }
+  
+  .upload-heading {
+    font-size: 2rem; /* Large text for heading */
+    color: #333; /* Dark grey text for better readability */
+    margin-bottom: 0.5rem;
+  }
+  
+  .upload-paragraph {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .upload-file-input {
+    margin-bottom: 1rem; /* Space before the upload button */
+    border: 1px solid #ccc; /* Subtle border for the input */
+    padding: 0.5rem; /* Padding for aesthetic input size */
+    width: calc(100% - 2rem); /* Full width minus padding */
+  }
+  
+  .upload-button {
+    background-color: #0056b3; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem; /* Comfortable click area */
+    border-radius: 0.25rem; /* Rounded corners */
+    font-size: 1rem; /* Readable font size */
+    cursor: pointer; /* Cursor indicates clickable */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .upload-button:hover {
+    background-color: #003d82; /* Darker shade on hover */
+  }
+  
+  .upload-message {
+    margin-top: 1rem;
+    color: #28a745; /* Success message in green */
+    font-size: 1rem;
+  }
+  
